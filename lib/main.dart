@@ -15,22 +15,25 @@ class MyApp extends StatelessWidget{
         backgroundColor: Colors.white,
         body: const Center(
           child: Text(
-            "Learn Text Widget in FLutter",
+            "Learn Text Widget in Flutter\n For the first time\nDaffa Dziiba'an Khoiri",
             overflow: TextOverflow.fade,
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.black,
               fontSize: 20,
               fontWeight: FontWeight.bold,
-              letterSpacing: 5,
+              letterSpacing: 1.5,
+              wordSpacing: 3,
               decorationStyle: TextDecorationStyle.solid,
-              decoration: TextDecoration.underline,
+              decoration: TextDecoration.none,
               decorationColor: Colors.red,
               decorationThickness: 2,
             ),
 
           ),
+
         ),
+
         appBar: AppBar(
 
           backgroundColor: Colors.blueAccent,
