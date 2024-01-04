@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget{
         backgroundColor: Colors.white,
         body: const Center(
           child: Text(
-            "My First Flutter Project",
+            "Learn Text Widget in FLutter",
             overflow: TextOverflow.fade,
             textAlign: TextAlign.center,
             style: TextStyle(
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget{
               fontWeight: FontWeight.bold,
               letterSpacing: 5,
               decorationStyle: TextDecorationStyle.solid,
-              decoration: TextDecoration.lineThrough,
+              decoration: TextDecoration.underline,
               decorationColor: Colors.red,
               decorationThickness: 2,
             ),
